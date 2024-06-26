@@ -1,0 +1,30 @@
+Application
+
+一、dataPath属性：数据文件路径、都为只读
+1、返回工程目录下Asset文件路径
+	Application.dataPath
+2、返回工程目录下Asset/streamingAssetsPath文件路径
+	Application.streamingAssetsPath
+以下三种一般是相对设备所在系统的固定位置
+3、返回一个持久化数据存储目录的路径(只读)，可以在此路径下存储一下持久化的数据文件
+	Application.persistentDataPath
+4、Application.persistentDataPath
+5、返回一个临时数据的缓存目录
+	Application.temporaryCachePath
+
+二、loadedLevel属性：关卡索引、都为只读
+1、返回当前场景的索引值	
+	Application.loadedLevel
+2、返回当前场景的名字	
+	Application.loadedLevelName
+3、是否有场景正在被加载,在使用Application类的静态方法LoadLevel或LoadLevelAdditive加载一个新的场景时
+	常常需要持续一段时间才能加载完毕，当场景加载完毕时，isLoadingLevel返回true，否则返回false	
+	Application.isLoadingLevel
+4、返回游戏中可被加载的场景数量	
+	Application.levelCount
+5、返回当前游戏的运行平台,游戏的运行平台有很多种，例如手机、电脑、游戏机等，具体类型可在枚举类RuntimePlatform中查看。	
+	Application.platform
+6、当前游戏是否正在运行
+	Application.isPlaying
+7、当前游戏是否处于Unity编辑模式
+	Application.isEditor

@@ -12,8 +12,8 @@ namespace FrameWork
     /// </summary>
     internal class FileLogHelper : DefaultLogHelper
     {
-        private readonly string CurrentLogPath = Utility.Path.GetRegularPath(Path.Combine(Application.persistentDataPath, "current.log"));
-        private readonly string PreviousLogPath = Utility.Path.GetRegularPath(Path.Combine(Application.persistentDataPath, "previous.log"));
+        private readonly string CurrentLogPath = Utility.Path.GetRegularPath(Path.Combine(Application.streamingAssetsPath, "current.log"));
+        private readonly string PreviousLogPath = Utility.Path.GetRegularPath(Path.Combine(Application.streamingAssetsPath, "previous.log"));
  
         public FileLogHelper()
         {

@@ -1,0 +1,69 @@
+﻿[2024-06-26 20:09:04.926][Log] Game Framework Version: 2021.05.31
+UnityEngine.Debug:Log (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
+GameFramework.GameFrameworkLog:Info (string,object)
+UnityGameFramework.Runtime.Log:Info (string,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:143)
+UnityGameFramework.Runtime.BaseComponent:Awake () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Base/BaseComponent.cs:188)
+
+[2024-06-26 20:09:04.933][Log] Game Version: 0.1 (0)
+UnityEngine.Debug:Log (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
+GameFramework.GameFrameworkLog:Info (string,object,object)
+UnityGameFramework.Runtime.Log:Info (string,object,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:159)
+UnityGameFramework.Runtime.BaseComponent:Awake () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Base/BaseComponent.cs:189)
+
+[2024-06-26 20:09:04.934][Log] Unity Version: 2022.3.23f1
+UnityEngine.Debug:Log (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
+GameFramework.GameFrameworkLog:Info (string,object)
+UnityGameFramework.Runtime.Log:Info (string,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:143)
+UnityGameFramework.Runtime.BaseComponent:Awake () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Base/BaseComponent.cs:190)
+
+[2024-06-26 20:09:04.937][Log] During this run, Game Framework will use editor resource files, which you should validate first.
+UnityEngine.Debug:Log (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
+GameFramework.GameFrameworkLog:Info (string)
+UnityGameFramework.Runtime.Log:Info (string) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:128)
+UnityGameFramework.Runtime.BaseComponent:Awake () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Base/BaseComponent.cs:205)
+
+[2024-06-26 20:09:05.067][Log] Strict checking is enabled for the Reference Pool. It will drastically affect the performance.
+UnityEngine.Debug:Log (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
+GameFramework.GameFrameworkLog:Info (string)
+UnityGameFramework.Runtime.Log:Info (string) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:128)
+UnityGameFramework.Runtime.ReferencePoolComponent:set_EnableStrictCheck (bool) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/ReferencePool/ReferencePoolComponent.cs:37)
+UnityGameFramework.Runtime.ReferencePoolComponent:Start () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/ReferencePool/ReferencePoolComponent.cs:55)
+
+[2024-06-26 20:09:05.268][Log] Hello! This is an empty project based on Game Framework 2021.05.31.
+UnityEngine.Debug:Log (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
+GameFramework.GameFrameworkLog:Info (string)
+UnityGameFramework.Runtime.Log:Info (string) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:128)
+GameFrameworkExample.ProcedureExample:OnEnter (GameFramework.Fsm.IFsm`1<GameFramework.Procedure.IProcedureManager>) (at Assets/Example/ProcedureExample.cs:16)
+GameFramework.Fsm.Fsm`1<GameFramework.Procedure.IProcedureManager>:Start (System.Type)
+GameFramework.Procedure.ProcedureManager:StartProcedure (System.Type)
+UnityGameFramework.Runtime.ProcedureComponent/<Start>d__9:MoveNext () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Procedure/ProcedureComponent.cs:105)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[2024-06-26 20:09:05.269][Warning] Hello! This is an empty project based on Game Framework 2021.05.31.
+UnityEngine.Debug:LogWarning (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:36)
+GameFramework.GameFrameworkLog:Warning (string)
+UnityGameFramework.Runtime.Log:Warning (string) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:221)
+GameFrameworkExample.ProcedureExample:OnEnter (GameFramework.Fsm.IFsm`1<GameFramework.Procedure.IProcedureManager>) (at Assets/Example/ProcedureExample.cs:17)
+GameFramework.Fsm.Fsm`1<GameFramework.Procedure.IProcedureManager>:Start (System.Type)
+GameFramework.Procedure.ProcedureManager:StartProcedure (System.Type)
+UnityGameFramework.Runtime.ProcedureComponent/<Start>d__9:MoveNext () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Procedure/ProcedureComponent.cs:105)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[2024-06-26 20:09:05.270][Error] Hello! This is an empty project based on Game Framework 2021.05.31.
+UnityEngine.Debug:LogError (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:40)
+GameFramework.GameFrameworkLog:Error (string)
+UnityGameFramework.Runtime.Log:Error (string) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:320)
+GameFrameworkExample.ProcedureExample:OnEnter (GameFramework.Fsm.IFsm`1<GameFramework.Procedure.IProcedureManager>) (at Assets/Example/ProcedureExample.cs:18)
+GameFramework.Fsm.Fsm`1<GameFramework.Procedure.IProcedureManager>:Start (System.Type)
+GameFramework.Procedure.ProcedureManager:StartProcedure (System.Type)
+UnityGameFramework.Runtime.ProcedureComponent/<Start>d__9:MoveNext () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Procedure/ProcedureComponent.cs:105)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
