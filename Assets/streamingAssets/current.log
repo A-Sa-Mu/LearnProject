@@ -1,51 +1,43 @@
-﻿[2024-06-27 16:45:24.461][Log] Game Framework Version: 2021.05.31
+﻿[2024-06-27 17:22:25.432][Log] Game Framework Version: 2021.05.31
 UnityEngine.Debug:Log (object)
 UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
 GameFramework.GameFrameworkLog:Info (string,object)
 UnityGameFramework.Runtime.Log:Info (string,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:143)
 UnityGameFramework.Runtime.BaseComponent:Awake () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Base/BaseComponent.cs:188)
 
-[2024-06-27 16:45:24.468][Log] Game Version: 0.1 (0)
+[2024-06-27 17:22:25.439][Log] Game Version: 0.1 (0)
 UnityEngine.Debug:Log (object)
 UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
 GameFramework.GameFrameworkLog:Info (string,object,object)
 UnityGameFramework.Runtime.Log:Info (string,object,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:159)
 UnityGameFramework.Runtime.BaseComponent:Awake () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Base/BaseComponent.cs:189)
 
-[2024-06-27 16:45:24.469][Log] Unity Version: 2022.3.23f1
+[2024-06-27 17:22:25.446][Log] Unity Version: 2022.3.23f1
 UnityEngine.Debug:Log (object)
 UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
 GameFramework.GameFrameworkLog:Info (string,object)
 UnityGameFramework.Runtime.Log:Info (string,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:143)
 UnityGameFramework.Runtime.BaseComponent:Awake () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Base/BaseComponent.cs:190)
 
-[2024-06-27 16:45:24.473][Log] During this run, Game Framework will use editor resource files, which you should validate first.
+[2024-06-27 17:22:25.451][Log] During this run, Game Framework will use editor resource files, which you should validate first.
 UnityEngine.Debug:Log (object)
 UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
 GameFramework.GameFrameworkLog:Info (string)
 UnityGameFramework.Runtime.Log:Info (string) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:128)
 UnityGameFramework.Runtime.BaseComponent:Awake () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Base/BaseComponent.cs:205)
 
-[2024-06-27 16:45:24.646][Exception] NullReferenceException: Object reference not set to an instance of an object
-GameFramework.TestConfigComponent.Start () (at Assets/Scripts/ThirdParty/GameFramework/TestScripts/TestConfigComponent.cs:12)
+[2024-06-27 17:22:25.621][Warning] Can not get data row type with class name 'StarForce.DRMusic'.
+UnityEngine.Debug:LogWarning (object)
+UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:36)
+GameFramework.GameFrameworkLog:Warning (string,object)
+UnityGameFramework.Runtime.Log:Warning (string,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/Log.cs:237)
+GameFramework.DataTableExtension:LoadDataTable (UnityGameFramework.Runtime.DataTableComponent,string,string,object) (at Assets/Scripts/ThirdParty/GameFramework/TestScripts/DataTableExtension.cs:40)
+GameFramework.TestDataTableComponent:Start () (at Assets/Scripts/ThirdParty/GameFramework/TestScripts/TestDataTableComponent.cs:22)
 
-[2024-06-27 16:45:24.650][Log] 获取节点上数据：frank
-UnityEngine.Debug:Log (object)
-GameFramework.TestDataComponent:Start () (at Assets/Scripts/ThirdParty/GameFramework/TestScripts/TestDataComponent.cs:24)
+[2024-06-27 17:22:25.623][Exception] NullReferenceException: Object reference not set to an instance of an object
+GameFramework.TestDataTableComponent.Start () (at Assets/Scripts/ThirdParty/GameFramework/TestScripts/TestDataTableComponent.cs:26)
 
-[2024-06-27 16:45:24.650][Log] 根据父节点获取孩子数据：30
-UnityEngine.Debug:Log (object)
-GameFramework.TestDataComponent:Start () (at Assets/Scripts/ThirdParty/GameFramework/TestScripts/TestDataComponent.cs:29)
-
-[2024-06-27 16:45:24.651][Log] 节点：存在
-UnityEngine.Debug:Log (object)
-GameFramework.TestDataComponent:Start () (at Assets/Scripts/ThirdParty/GameFramework/TestScripts/TestDataComponent.cs:35)
-
-[2024-06-27 16:45:24.652][Log] 节点：不存在
-UnityEngine.Debug:Log (object)
-GameFramework.TestDataComponent:Start () (at Assets/Scripts/ThirdParty/GameFramework/TestScripts/TestDataComponent.cs:52)
-
-[2024-06-27 16:45:24.665][Log] Strict checking is enabled for the Reference Pool. It will drastically affect the performance.
+[2024-06-27 17:22:25.638][Log] Strict checking is enabled for the Reference Pool. It will drastically affect the performance.
 UnityEngine.Debug:Log (object)
 UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
 GameFramework.GameFrameworkLog:Info (string)
@@ -53,7 +45,7 @@ UnityGameFramework.Runtime.Log:Info (string) (at Assets/Scripts/ThirdParty/GameF
 UnityGameFramework.Runtime.ReferencePoolComponent:set_EnableStrictCheck (bool) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/ReferencePool/ReferencePoolComponent.cs:37)
 UnityGameFramework.Runtime.ReferencePoolComponent:Start () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/ReferencePool/ReferencePoolComponent.cs:55)
 
-[2024-06-27 16:45:24.850][Log] Hello! This is an empty project based on Game Framework 2021.05.31.
+[2024-06-27 17:22:25.836][Log] Hello! This is an empty project based on Game Framework 2021.05.31.
 UnityEngine.Debug:Log (object)
 UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:32)
 GameFramework.GameFrameworkLog:Info (string)
@@ -64,7 +56,7 @@ GameFramework.Procedure.ProcedureManager:StartProcedure (System.Type)
 UnityGameFramework.Runtime.ProcedureComponent/<Start>d__9:MoveNext () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Procedure/ProcedureComponent.cs:105)
 UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
 
-[2024-06-27 16:45:24.851][Warning] Hello! This is an empty project based on Game Framework 2021.05.31.
+[2024-06-27 17:22:25.837][Warning] Hello! This is an empty project based on Game Framework 2021.05.31.
 UnityEngine.Debug:LogWarning (object)
 UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:36)
 GameFramework.GameFrameworkLog:Warning (string)
@@ -75,7 +67,7 @@ GameFramework.Procedure.ProcedureManager:StartProcedure (System.Type)
 UnityGameFramework.Runtime.ProcedureComponent/<Start>d__9:MoveNext () (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Procedure/ProcedureComponent.cs:105)
 UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
 
-[2024-06-27 16:45:24.852][Error] Hello! This is an empty project based on Game Framework 2021.05.31.
+[2024-06-27 17:22:25.838][Error] Hello! This is an empty project based on Game Framework 2021.05.31.
 UnityEngine.Debug:LogError (object)
 UnityGameFramework.Runtime.DefaultLogHelper:Log (GameFramework.GameFrameworkLogLevel,object) (at Assets/Scripts/ThirdParty/GameFramework/Scripts/Runtime/Utility/DefaultLogHelper.cs:40)
 GameFramework.GameFrameworkLog:Error (string)
