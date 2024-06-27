@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceBuilder>
+    <Settings>
+      <InternalResourceVersion>250</InternalResourceVersion>
+      <Platforms>32</Platforms>
+      <AssetBundleCompression>1</AssetBundleCompression>
+      <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
+      <AdditionalCompressionSelected>False</AdditionalCompressionSelected>
+      <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
+      <BuildEventHandlerTypeName>
+      </BuildEventHandlerTypeName>
+      <OutputDirectory>C:/project/UnityFrameWork/build/gf_assetsbundle_output/none</OutputDirectory>
+      <OutputPackageSelected>True</OutputPackageSelected>
+      <OutputFullSelected>False</OutputFullSelected>
+      <OutputPackedSelected>False</OutputPackedSelected>
+    </Settings>
+  </ResourceBuilder>
+</UnityGameFramework>
+<!--
+<ResourceBuilder>: 包含了资源构建器的设置信息。
+<Settings>: 包含了资源构建器的具体设置项。
+<InternalResourceVersion>: 内部资源版本号，设置为250。
+<Platforms>: 平台数量，设置为32。
+<AssetBundleCompression>: 资产包压缩设置，值为1。
+<CompressionHelperTypeName>: 压缩帮助程序类型名称，设置为 "UnityGameFramework.Runtime.DefaultCompressionHelper"。
+<AdditionalCompressionSelected>: 是否选择附加压缩，设置为False。
+<ForceRebuildAssetBundleSelected>: 是否强制重新构建资产包，设置为False。
+<BuildEventHandlerTypeName>: 构建事件处理程序类型名称。
+<OutputDirectory>: 输出目录，设置为 "C:/project/UnityFrameWork/build/gf_assetsbundle_output/none"。
+<OutputPackageSelected>: 是否选择输出包，设置为True。
+<OutputFullSelected>: 是否选择完整输出，设置为False。
+<OutputPackedSelected>: 是否选择打包输出，设置为False。
+这些设置定义了资源构建器的行为，包括资源版本号、压缩设置、输出目录等。这些设置可能会影响资源构建的过程和结果。
+-->

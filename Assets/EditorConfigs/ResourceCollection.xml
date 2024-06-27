@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="Builtin/AddLauncherInfo.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Builtin/BuildInfo.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Builtin/ConfigInfo.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Builtin/Default.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Builtin/Font.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Builtin/FoundationSdkInfo.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Builtin/Sprites.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Configs/DataTables.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="FrameWork/Database.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="FrameWork/Materials.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="FrameWork/Shader.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="FrameWork/Sounds/UISounds_button_click.mp3.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="FrameWork/Sprites/Common.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="FrameWork_Launcher.unity.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Game/HotfixDLL.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Game/Prefabs/UIForms/Normal.unity3d" LoadType="0" Packed="True" />
+      <Resource Name="Game/Scenes_MainScene.unity.unity3d" LoadType="0" Packed="True" />
+    </Resources>
+    <Assets>
+      <Asset Guid="04708a3808e4643d3883a4c6561e0b72" ResourceName="FrameWork/Sprites/Common.unity3d" />
+      <Asset Guid="07da6da3b01474c9086e8b9a3cb9187f" ResourceName="FrameWork/Materials.unity3d" />
+      <Asset Guid="089f28ac62422064ba39a418c7530d59" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="0b26809b617943b47a215771498144de" ResourceName="FrameWork/Materials.unity3d" />
+      <Asset Guid="215e4d11873d5e64e9fd48fda5fdd302" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="22859410cd1c493428708c95bde5f727" ResourceName="Builtin/Sprites.unity3d" />
+      <Asset Guid="23e4ad3be65bfb04e8d6ab2503f6baef" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="2cb0d2beed8ecde458ad1b1d89ef1467" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="3944318252f8e48f6a5a4fe652f4584b" ResourceName="FrameWork/Sounds/UISounds_button_click.mp3.unity3d" />
+      <Asset Guid="39e92f9e952cde048a865e0902870aa8" ResourceName="Game/HotfixDLL.unity3d" />
+      <Asset Guid="3d7d711b007bf40479e5e9c1ef6b1ecc" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="4dea0adeb48031f48aade06cfffabde7" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="5237d008ea30aa0458e16531d734f13b" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="53e1b4b17625cc84999c707fda4aaaca" ResourceName="Configs/DataTables.unity3d" />
+      <Asset Guid="5d31f5e4f942a484f87ef43b4637776e" ResourceName="FrameWork/Materials.unity3d" />
+      <Asset Guid="5f8ed1a0c5bb7f640982ff8916132ef4" ResourceName="Builtin/AddLauncherInfo.unity3d" />
+      <Asset Guid="64c0d44ded5dfdf4ba0842a42bcdc657" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="6515c4fe3245a4b01b6b32302bf8be21" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="680e0ab1c0162425498b89d0b8794cba" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="69309e533a4bc124d870d165e57bd562" ResourceName="Builtin/Sprites.unity3d" />
+      <Asset Guid="6b1c7be47ee024556a4709f22c5a00bc" ResourceName="FrameWork/Materials.unity3d" />
+      <Asset Guid="6d484e13715d15d4db19d479a432422a" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="71397749c2064cf9ab2890e96f5e2ddc" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="73a355060b71a4f4893d715e4cf7e016" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="75e70018b851c422e94c6154492c47b1" ResourceName="FrameWork/Sprites/Common.unity3d" />
+      <Asset Guid="7bf6e70d89ec5c948a99fb063b24daa1" ResourceName="Configs/DataTables.unity3d" />
+      <Asset Guid="7cefbd97117bb42c99a4a8cf8e0d1d04" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="7cf78c6b54770554f9e510f6f58aad65" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="817ae0e2279b27a4abcb9f16c73be8dd" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="8582aab3e6c544740975d6d155eb1b09" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="958e2078786c9b44e832952d091ce9bc" ResourceName="Builtin/ConfigInfo.unity3d" />
+      <Asset Guid="984c80c6b9a1846e48802c9b6c32a1d0" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="9ba050eb33e6c43b4846f45f8bcab780" ResourceName="FrameWork/Materials.unity3d" />
+      <Asset Guid="9e96486647000744d9a825a3ead9bad0" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="b218b6a6055904a2f8939770a1580afb" ResourceName="FrameWork/Sprites/Common.unity3d" />
+      <Asset Guid="be58f395cf6894f02abd53f8c95289ec" ResourceName="FrameWork/Database.unity3d" />
+      <Asset Guid="bf1f48a284cf4dc43969926b162237e2" ResourceName="Builtin/Font.unity3d" />
+      <Asset Guid="c0d29b71ebd9f43dd8b9844745ed173b" ResourceName="FrameWork/Materials.unity3d" />
+      <Asset Guid="c1b9985e0712b0540918d5e6d80014ad" ResourceName="Builtin/FoundationSdkInfo.unity3d" />
+      <Asset Guid="c1d935f02c5fb6d4fbf077fd39b336fc" ResourceName="Builtin/Default.unity3d" />
+      <Asset Guid="c8ab1e7ee1ac945309add50fdf5b43f1" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="cf670de5f5ba941b18c2370b287daf59" ResourceName="FrameWork/Sprites/Common.unity3d" />
+      <Asset Guid="d09ae62208ca841e5bbb22c20f9fbf6a" ResourceName="FrameWork/Materials.unity3d" />
+      <Asset Guid="d89c94d432869e048aae9c0ea0607e29" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="d8d50b71eefb35f47a6eb1b2b7117d68" ResourceName="Game/Scenes_MainScene.unity.unity3d" />
+      <Asset Guid="ddf3b6d20b82bd1468ce79353c593f42" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="e0505bda8a0fc455492e8e7ac2e3817d" ResourceName="FrameWork/Materials.unity3d" />
+      <Asset Guid="e061e8efb64c62b4e9c90b5bf506d4e7" ResourceName="Builtin/Sprites.unity3d" />
+      <Asset Guid="e62e1c32908d33544881a818acbc72f7" ResourceName="Configs/DataTables.unity3d" />
+      <Asset Guid="eb7c6b052aa03ac4f8e9f4c5f3830a7e" ResourceName="Game/Prefabs/UIForms/Normal.unity3d" />
+      <Asset Guid="eb9c956d70c224d459437131ae2c1ffa" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="ecd1954b69160b4458ae0670ef1100da" ResourceName="Builtin/Sprites.unity3d" />
+      <Asset Guid="ed9a4d17ea2874d098d47b4b743f3d0b" ResourceName="FrameWork_Launcher.unity.unity3d" />
+      <Asset Guid="ef13859671c914bd7b053d66491de0ce" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="f07c2c3d00174373963f5df221032d9c" ResourceName="FrameWork/Shader.unity3d" />
+      <Asset Guid="f5fdbaf63f83cbb4882bfba7e8baf1d5" ResourceName="Builtin/BuildInfo.unity3d" />
+      <Asset Guid="f6390fb32ac26a942804073ab38b6b37" ResourceName="Builtin/Sprites.unity3d" />
+      <Asset Guid="f81a63246995b44b7a0ee62fc64428bd" ResourceName="FrameWork/Shader.unity3d" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>
+<!--
+<ResourceCollection>: 这个元素包含了资源集合的整体信息。
+<Resources>: 这个元素包含了资源的列表，每个资源都有一个名称、加载类型和是否打包等属性。
+<Resource>: 这个元素定义了一个资源，包括名称（Name）、加载类型（LoadType）和是否打包（Packed）等属性。
+<Assets>: 这个元素包含了资产（Assets）的信息，每个资产都有一个唯一的标识（Guid）和对应的资源名称（ResourceName）。
+-->

@@ -36,7 +36,10 @@ namespace UnityGameFramework.Runtime
         private float m_LastUnloadUnusedAssetsOperationElapseSeconds = 0f;
         private ResourceHelperBase m_ResourceHelper = null;
 
-        [SerializeField]
+        /// <summary>
+        /// 设置游戏资源模式
+        /// </summary>
+        [SerializeField]    
         private ResourceMode m_ResourceMode = ResourceMode.Package;
 
         [SerializeField]
@@ -72,7 +75,7 @@ namespace UnityGameFramework.Runtime
         [SerializeField]
         private int m_ResourcePriority = 0;
 
-        [SerializeField]
+        [SerializeField]    // 取或设置资源更新下载地址
         private string m_UpdatePrefixUri = null;
 
         [SerializeField]
@@ -641,8 +644,11 @@ namespace UnityGameFramework.Runtime
             }
 
             SetResourceMode(m_ResourceMode);
+            // 设置对象池管理器
             m_ResourceManager.SetObjectPoolManager(GameFrameworkEntry.GetModule<IObjectPoolManager>());
+            // 设置文件系统管理器
             m_ResourceManager.SetFileSystemManager(GameFrameworkEntry.GetModule<IFileSystemManager>());
+            // 设置下载管理器
             m_ResourceManager.SetDownloadManager(GameFrameworkEntry.GetModule<IDownloadManager>());
             m_ResourceManager.AssetAutoReleaseInterval = m_AssetAutoReleaseInterval;
             m_ResourceManager.AssetCapacity = m_AssetCapacity;
@@ -654,7 +660,8 @@ namespace UnityGameFramework.Runtime
             m_ResourceManager.ResourcePriority = m_ResourcePriority;
             if (m_ResourceMode == ResourceMode.Updatable || m_ResourceMode == ResourceMode.UpdatableWhilePlaying)
             {
-                m_ResourceManager.UpdatePrefixUri = m_UpdatePrefixUri;
+                // 取或设置资源更新下载地址
+                m_ResourceManager.UpdatePrefixUri = m_UpdatePrefixUri;  
                 m_ResourceManager.GenerateReadWriteVersionListLength = m_GenerateReadWriteVersionListLength;
                 m_ResourceManager.UpdateRetryCount = m_UpdateRetryCount;
             }

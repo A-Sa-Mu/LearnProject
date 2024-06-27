@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildSettings>
+    <DefaultScenes>
+      <DefaultScene Name="Assets/AssetBundleRes/FrameWork/Launcher.unity" />
+    </DefaultScenes>
+    <SearchScenePaths>
+      <SearchScenePath Path="Assets" />
+    </SearchScenePaths>
+  </BuildSettings>
+</UnityGameFramework>
+<!--
+<BuildSettings>: 这个元素包含了构建设置的整体信息。
+<DefaultScenes>: 这个元素包含了默认场景的信息，其中定义了默认场景的名称。
+<DefaultScene>: 这个元素定义了一个默认场景，包括场景的名称（Name）。
+<SearchScenePaths>: 这个元素包含了搜索场景路径的信息，用于指定在构建过程中搜索场景的路径。
+<SearchScenePath>: 这个元素定义了一个搜索场景路径，包括路径（Path）。
+根据提供的XML片段，可以看到默认场景是 "Assets/AssetBundleRes/FrameWork/Launcher.unity"，并且搜索场景路径被设置为 "Assets"。这些设置可能用于UnityGameFramework中的构建流程，以确保正确的场景被包含在构建中。
+-->
